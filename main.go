@@ -63,6 +63,7 @@ func main() {
 	//fmt.Println("world")   /////infinite for loop
 	//}
 	a, b := 15.0, 5.0
+	fmt.Println("Hello World")
 	defer fmt.Println("Katragadda") //defer
 	defer fmt.Println("Datta")      //defer
 	fmt.Println("Murari")
