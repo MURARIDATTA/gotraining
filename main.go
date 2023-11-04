@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"myproject/project2"
 	"myproject/simplecalc"
 )
 
@@ -77,4 +78,5 @@ func main() {
 	fmt.Println(p)
 	fmt.Println(*p)
 	fmt.Println(&p)
+	project2.Slice()
 }
